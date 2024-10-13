@@ -21,6 +21,8 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.14",
     "json2csv": "^6.0.0-alpha.2",
