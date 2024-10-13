@@ -1,16 +1,222 @@
 [
   {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 1,
     "name": "三浦歯科技工所",
     "lat": 34.702798,
     "lng": 137.711019,
     "address": "浜松市中央区鴨江二丁目33-27",
-    "tel": "053-453-8895"
+    "tel": "053-453-8895",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
   },
   {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 2,
     "name": "藤谷歯科技工所",
     "lat": 34.721114,
     "lng": 137.753091,
     "address": "浜松市中央区上西町33-27",
-    "tel": "053-464-6978"
+    "tel": "053-464-6978",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 3,
+    "name": "有限会社P.D.K",
+    "lat": 34.709611,
+    "lng": 137.700253,
+    "address": "浜松市中央区佐鳴台四丁目24-8",
+    "tel": "053-448-8882",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 4,
+    "name": "アイソ・デンタル・ラボラトリー",
+    "lat": 34.683803,
+    "lng": 137.659369,
+    "address": "浜松市中央区篠原町20354",
+    "tel": "053-447-1496",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 5,
+    "name": "桐澤歯科技工所",
+    "lat": 34.719879,
+    "lng": 137.777189,
+    "address": "浜松市中央区天龍川町134",
+    "tel": "053-464-0209",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 6,
+    "name": "伸和技研",
+    "lat": 34.722047,
+    "lng": 137.741458,
+    "address": "浜松市中央区新津町577-1",
+    "tel": "053)463-6031",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 7,
+    "name": "星野歯科技工室",
+    "lat": 34.697456,
+    "lng": 137.760299,
+    "address": "浜松市中央区本郷町1366-12",
+    "tel": "053)461-0965",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 8,
+    "name": "中村歯科技工所",
+    "lat": 34.695028,
+    "lng": 137.727146,
+    "address": "浜松市中央区上浅田一丁目12-15",
+    "tel": "053)456-7701",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 9,
+    "name": "大津歯科技工所",
+    "lat": 34.718617,
+    "lng": 137.739086,
+    "address": "浜松市中央区野口町432",
+    "tel": "053)463-8608",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 10,
+    "name": "アマノデンチャーラボ室",
+    "lat": 34.779458,
+    "lng": 137.69392,
+    "address": "浜松市中央区花川町85",
+    "tel": "053)438-0378",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 11,
+    "name": "浜松デンタルエイト",
+    "lat": 34.700623,
+    "lng": 137.683674,
+    "address": "浜松市中央区入野町9241-3",
+    "tel": "053)448-4812",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 12,
+    "name": "デンタルファクトリー",
+    "lat": 34.689262,
+    "lng": 137.729063,
+    "address": "浜松市中央区南浅田二丁目2-21",
+    "tel": "053)441-8216",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 13,
+    "name": "松本歯科技工所",
+    "lat": 34.781003,
+    "lng": 137.766963,
+    "address": "浜松市中央区西ケ崎町930-1",
+    "tel": "053)435-4301",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 14,
+    "name": "デンタルラボNEGI",
+    "lat": 34.683816,
+    "lng": 137.743789,
+    "address": "浜松市中央区寺脇町358-2",
+    "tel": "053)442-1255",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 15,
+    "name": "有限会社マキノ・ラボラトリー",
+    "lat": 34.720858,
+    "lng": 137.70856,
+    "address": "浜松市中央区富塚町200-37",
+    "tel": "053)471-3648",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 16,
+    "name": "伊藤デンタルラボ",
+    "lat": 34.77705,
+    "lng": 137.806751,
+    "address": "浜松市中央区豊町3556-3",
+    "tel": "053)433-4303",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 17,
+    "name": "フジタデンタルスタジオ",
+    "lat": 34.687856,
+    "lng": 137.724655,
+    "address": "浜松市中央区神田町199-1　ドミール江西203",
+    "tel": "053)442-4771",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 18,
+    "name": "セラテックデンタルラボラトリー",
+    "lat": 34.702036,
+    "lng": 137.67228,
+    "address": "浜松市中央区入野町16109-6",
+    "tel": "053)447-7963",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 19,
+    "name": "キャストデンタルスタジオ",
+    "lat": 34.74072,
+    "lng": 137.735371,
+    "address": "浜松市中央区上島六丁目13-15",
+    "tel": "053)472-9975",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
+  },
+  {
+    "public_health_center": "浜松市 保健所 保健総務課",
+    "id": 20,
+    "name": "クローバーデンタルラボラトリー",
+    "lat": 34.749745,
+    "lng": 137.750961,
+    "address": "浜松市中央区有玉南町1814-1",
+    "tel": "053)475-9551",
+    "updated_at": "2024-05-21T13:30:00+09:00",
+    "source": "https://static.hamamatsu.odpf.net/opendata/v01/shikagikoujo/shikagikoujo.json"
   }
 ]
