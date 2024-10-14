@@ -55,7 +55,7 @@ fs.createReadStream(inputFilePath)
     });
 })
     .on('end', function () { return __awaiter(void 0, void 0, void 0, function () {
-    var outputFacilities, _i, facilities_1, facility, address, response, data, location_1, csvWriter;
+    var outputFacilities, _i, facilities_1, facility, address, response, data, location_1, i, result, csvWriter;
     var _a;
     return __generator(this, function (_b) {
         switch (_b.label) {
@@ -74,6 +74,14 @@ fs.createReadStream(inputFilePath)
             case 3:
                 data = _b.sent();
                 location_1 = (_a = data.results[0]) === null || _a === void 0 ? void 0 : _a.geometry.location;
+                for (i = 1; i < data.results.length; i++) {
+                    console.log("0 ".concat(facility.施設名称, " (").concat(facility.施設所在地, "), ").concat(location_1.lat, ", ").concat(location_1.lng, ", ").concat(data.results[0].geometry.location_type));
+                    result = data.results[i];
+                    console.log("".concat(i, " ").concat(facility.施設名称, " (").concat(facility.施設所在地, "), ").concat(result.geometry.location.lat, ", ").concat(result.geometry.location.lng, ", ").concat(result.geometry.location_type));
+                    if (result.geometry.location_type === 'ROOFTOP' || result.geometry.location_type === 'APPROXIMATE') {
+                        location_1 = result.geometry.location;
+                    }
+                }
                 outputFacilities.push({
                     管轄: '札幌市保健所',
                     管理番号: facility.管理番号,

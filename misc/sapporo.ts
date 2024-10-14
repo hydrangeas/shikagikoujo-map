@@ -44,7 +44,16 @@ fs.createReadStream(inputFilePath)
       const response = await fetch(`${apiUrl}?key=${apiKey}&address=${encodeURIComponent(`${facility.施設所在地}`)}`);
       const data = await response.json();
 
-      const location = data.results[0]?.geometry.location;
+      let location = data.results[0]?.geometry.location;
+      for (let i = 1; i < data.results.length; i++) {
+        console.log(`0 ${facility.施設名称} (${facility.施設所在地}), ${location.lat}, ${location.lng}, ${data.results[0].geometry.location_type}`);
+        const result = data.results[i];
+        console.log(`${i} ${facility.施設名称} (${facility.施設所在地}), ${result.geometry.location.lat}, ${result.geometry.location.lng}, ${result.geometry.location_type}`);
+        if (result.geometry.location_type === 'ROOFTOP' || result.geometry.location_type === 'APPROXIMATE') {
+          location = result.geometry.location;
+        }
+      }
+
       outputFacilities.push({
         管轄: '札幌市保健所',
         管理番号: facility.管理番号,
