@@ -17160,17 +17160,6 @@
     "source": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/files/R6-4.shikagikousyo1.xlsx"
   },
   {
-    "public_health_center": "管轄",
-    "id": "管理番号",
-    "name": "名称",
-    "lat": null,
-    "lng": null,
-    "address": "所在地",
-    "tel": "電話番号",
-    "updated_at": "",
-    "source": ""
-  },
-  {
     "public_health_center": "岩手県-盛岡市保健所",
     "id": "岩手県-盛岡市-0001",
     "name": "大原歯科技工所",
@@ -18670,8 +18659,8 @@
     "public_health_center": "岩手県-奥州保健所",
     "id": "岩手県-奥州-0012",
     "name": "前沢歯科技工",
-    "lat": 36.3759194,
-    "lng": 139.8460891,
+    "lat": 39.0427729,
+    "lng": 141.1204177,
     "address": "岩手県奥州市前沢字駅東三丁目5番地11",
     "tel": "",
     "updated_at": "2024-07-23T00:00:00+09:00",
