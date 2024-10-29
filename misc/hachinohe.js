@@ -41,7 +41,7 @@ var csv = require("csv-parser");
 var csv_writer_1 = require("csv-writer");
 var inputFilePath = 'hachinohe-input.csv';
 var outputFilePath = 'hachinohe.csv';
-var apiKey = 'AIzaSyDmoY5C-Ltr_eDT8KC0_AwZ-ToL8SMn380';
+var apiKey = process.env.GOOGLE_API_KEY;
 var apiUrl = 'https://maps.googleapis.com/maps/api/geocode/json';
 var facilities = [];
 fs.createReadStream(inputFilePath)

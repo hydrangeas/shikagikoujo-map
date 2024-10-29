@@ -4,7 +4,7 @@ import { createObjectCsvWriter } from 'csv-writer';
 
 const inputFilePath = 'hachinohe-input.csv';
 const outputFilePath = 'hachinohe.csv';
-const apiKey = 'AIzaSyDmoY5C-Ltr_eDT8KC0_AwZ-ToL8SMn380';
+const apiKey = process.env.GOOGLE_API_KEY;
 const apiUrl = 'https://maps.googleapis.com/maps/api/geocode/json';
 
 interface Facility {

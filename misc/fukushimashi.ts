@@ -1,10 +1,12 @@
 import * as fs from 'fs';
 import * as csv from 'csv-parser';
 import { createObjectCsvWriter } from 'csv-writer';
+import * as dotenv from 'dotenv';
+dotenv.config();
 
 const inputFilePath = 'fukushimashi-input.csv';
 const outputFilePath = 'fukushimashi.csv';
-const apiKey = 'AIzaSyDmoY5C-Ltr_eDT8KC0_AwZ-ToL8SMn380';
+const apiKey = process.env.GOOGLE_API_KEY;
 const apiUrl = 'https://maps.googleapis.com/maps/api/geocode/json';
 
 interface Facility {

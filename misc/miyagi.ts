@@ -4,7 +4,7 @@ import { createObjectCsvWriter } from 'csv-writer';
 
 const inputFilePath = 'miyagi-input.csv';
 const outputFilePath = 'miyagi.csv';
-const apiKey = 'AIzaSyDmoY5C-Ltr_eDT8KC0_AwZ-ToL8SMn380';
+const apiKey = process.env.GOOGLE_API_KEY;
 const apiUrl = 'https://maps.googleapis.com/maps/api/geocode/json';
 
 interface Facility {
