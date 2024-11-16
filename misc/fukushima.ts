@@ -52,7 +52,7 @@ fs.createReadStream(inputFilePath)
       const response = await fetch(`${apiUrl}?key=${apiKey}&address=${encodeURIComponent(`${address}`)}`);
       const data = await response.json();
 
-      let location = data.results[0]?.geometry.location;
+      let location = data.results[0]?.geometry.location || null;
       for (let i = 1; i < data.results.length; i++) {
         console.log(`0 ${facility.歯科技工所名} (${address}), ${location.lat}, ${location.lng},${data.results[0].geometry.location_type}`);
         const result = data.results[i];
